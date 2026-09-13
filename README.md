@@ -33,8 +33,6 @@ brew untap qzmi4meister/tap
 
 Uninstalling the UI does not stop a running tunnel or delete CLI configurations, preferences, backups, or logs.
 
-If you previously installed from `trustui/local`, follow the [migration instructions](https://github.com/qzmi4meister/trustui#moving-from-the-old-local-tap) before installing this cask.
-
 ## Maintenance
 
 For each release, update the cask version and SHA-256 checksum to match the published universal ZIP in [TrustUI Releases](https://github.com/qzmi4meister/trustui/releases). Keep the release asset unchanged after publishing; ship changes under a new version.
