@@ -1,6 +1,6 @@
 cask "qe" do
-  version "0.2.1"
-  sha256 "69b2e30f64ef74c7d0a322b7de2deecc239d9c270078d1adb4998c20800fbf19"
+  version "0.3.0"
+  sha256 "78ba09e59d347e1123e94f4b1bf737a20b313515ba3f95d76ba4c740c3461dc9"
 
   url "https://github.com/qzmi4meister/qe/releases/download/v#{version}/QE-#{version}-arm64.zip"
   name "QE"
@@ -18,8 +18,6 @@ cask "qe" do
   ]
 
   caveats <<~EOS
-    QE currently has a Russian interface.
-
     This release is signed ad hoc and is not notarized by Apple.
     If you trust it and macOS blocks the first launch, open System Settings >
     Privacy & Security > Open Anyway after attempting to open the app.

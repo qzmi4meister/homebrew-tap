@@ -23,7 +23,7 @@ brew install --cask qzmi4meister/tap/trustui
 open -a TrustUI
 ```
 
-QE has a Russian interface and needs no additional runtime dependencies. TrustUI has English and Russian interfaces; Homebrew installs Python 3.12 for it. Install and configure the TrustTunnel CLI separately using the [TrustUI setup instructions](https://github.com/qzmi4meister/trustui#readme).
+QE has an English interface and needs no additional runtime dependencies. TrustUI has English and Russian interfaces; Homebrew installs Python 3.12 for it. Install and configure the TrustTunnel CLI separately using the [TrustUI setup instructions](https://github.com/qzmi4meister/trustui#readme).
 
 Both apps are signed ad hoc and are not notarized by Apple. If macOS blocks the first launch and you trust the release, use **System Settings → Privacy & Security → Open Anyway** after attempting to open it. See [Apple's instructions](https://support.apple.com/en-us/102445).
 
