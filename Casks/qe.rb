@@ -8,7 +8,7 @@ cask "qe" do
   homepage "https://github.com/qzmi4meister/qe"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "QE.app"
 
