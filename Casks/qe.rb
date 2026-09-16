@@ -1,6 +1,6 @@
 cask "qe" do
-  version "0.3.0"
-  sha256 "78ba09e59d347e1123e94f4b1bf737a20b313515ba3f95d76ba4c740c3461dc9"
+  version "0.3.1"
+  sha256 "9afc8cadda04df0acca0f24e611a1b16951426f524cf1efff6cf049460ab8280"
 
   url "https://github.com/qzmi4meister/qe/releases/download/v#{version}/QE-#{version}-arm64.zip"
   name "QE"
@@ -16,11 +16,4 @@ cask "qe" do
     "~/Library/Preferences/local.qe.files.plist",
     "~/Library/Saved Application State/local.qe.files.savedState",
   ]
-
-  caveats <<~EOS
-    This release is signed ad hoc and is not notarized by Apple.
-    If you trust it and macOS blocks the first launch, open System Settings >
-    Privacy & Security > Open Anyway after attempting to open the app.
-    See https://support.apple.com/en-us/102445.
-  EOS
 end
