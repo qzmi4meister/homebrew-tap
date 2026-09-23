@@ -1,6 +1,6 @@
 cask "qe" do
-  version "0.8.2"
-  sha256 "2174087dfacf621c9c9f1b4e0256973bb94ec78d9e0fb9e28be71de34858cbfc"
+  version "0.8.3"
+  sha256 "fd829842b419c74aaeaa8fc6b656fe6eac96170649851f26d58b84e1edb2ddf3"
 
   url "https://github.com/qzmi4meister/qe/releases/download/v#{version}/QE-#{version}-arm64.zip"
   name "QE"
